@@ -61,11 +61,11 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('📍 Update Channel', url='https://t.me/NT_BOT_CHANNEL'),
+                InlineKeyboardButton('📍 Update Channel', url='https://t.me/PandaLovebabyL'),
             ],
             [
-                InlineKeyboardButton('👩‍💻 Developer', url='https://t.me/LISA_FAN_LK'),
-                InlineKeyboardButton('👥 Support Group', url='https://t.me/NT_BOTS_SUPPORT'),
+                InlineKeyboardButton('👩‍💻 Developer', url='https://t.me/RAJASAHAB3891'),
+                InlineKeyboardButton('👥 Support Group', url='https://t.me/strangerchattingclub'),
             ],
             [
                 InlineKeyboardButton('⛔️ Close', callback_data='cancel')
@@ -83,7 +83,7 @@ To upload a YouTube video, simply send me the YouTube link.
 
 Enjoy using the bot!
 
-©️ Channel : @NT_BOT_CHANNEL
+©️ Channel : @pandalovebaby
     """
     await message.reply_text(help_text)
 
